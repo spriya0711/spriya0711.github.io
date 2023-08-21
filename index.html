@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Priya Singh</title>
+    <link rel="stylesheet" href="myportfolio.css"/>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="new--logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">My Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>JavaScript | TypeScript | React.js</p>
+                <h1>Meet <span>Priya Singh,</span> <br>a BBA-graduate turned<br>front-end developer.</h1>
+                <br>
+                <a href="#contact" class="scroll">Hire me  <i class="fa-solid fa-arrow-down"></i></a>  
+            </div>
+        </div>
+    </div>
+
+    <!--About-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="About.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Why <span class="auto-type"></span></h1>
+                    <p>While leading the SEO and designing websites on Figma in my previous jobs, I wondered: What gives life to these apps and websites? What makes them work? What makes them so stunning? And that's how I realized I was curious to dive deep into development and answer all What, Why, and How of a website functionalities. <br> <br> My journey of learning coding was tough but not impossible. And here I am, full fledge with the basic concepts of JavaScript and React to land my first job as a front-end developer.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onClick="opentab('skills')">Education</p>
+                    <p class="tab-links" onClick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onClick="opentab('education')">Achievements</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>2019</span><br>BBA (9 CGPA)</li>
+                        <li><span>2015</span><br>Intermediate (88.2%)</li>
+                        <li><span>2013</span><br>SSE (8.6 CGPA)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 Onwards</span><br>Front-end Development</li>
+                        <li><span>2022-23</span><br>Digital Marketing Strategist</li>
+                        <li><span>2019-2022</span><br>SEO Team Lead</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Employee of the month</span><br>2021</li>
+                        <li><span>Academics Topper</span><br>2015-2019</li>
+                        <li><span>Best Speaker</span><br>2019</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Quote--------->
+    <div id="quote">
+        <div class="container">
+            <i class="fa-sharp fa-solid fa-quote-left"></i>
+            <h2 class="typing-animation">You're never too old to set another goal</h2>
+            <p>...answers why I set forth this goal after spending 3 years in Marketing.</p>
+            <div class="faded-icons">
+                <div>
+                <i class="fa-brands fa-html5" style="color:#ababab"></i>
+                </div>
+                <div>
+                <i class="fa-brands fa-css3-alt" style="color:#ababab"></i>
+                </div>
+                <div>
+                <i class="fa-brands fa-square-js" style="color:#ababab"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-react" style="color:#ababab"></i>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My skills
+                <div class="line"></div>
+            </h1>
+            <div class="service-box">
+                    <div class="column-1">
+                        <ul>
+                            <li><i class="fas fa-code"></i>HTML, CSS, JavaScript, TypeScript</li>
+                            <li><i class="fas fa-code"></i>React.js, Bootstrap</li>
+                            <li><i class="fas fa-code"></i>Git/GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="column-2">
+                        <ul>
+                            <li><i class="fas fa-list"></i>Planning & Time Management</li>
+                            <li><i class="fas fa-list"></i>Communication & Interpersonal</li>
+                            <li><i class="fas fa-list"></i>Analytical & Problem Solving</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+            <!--
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML | CSS | JavaScript</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque tempore laboriosam vero repellendus velit expedita aspernatur recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, doloremque nobis facere, temporibus voluptate voluptates non laboriosam veritatis vero fugit saepe, quia suscipit autem harum quibusdam. Quae vero debitis voluptate saepe laboriosam dolor ipsa.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h2>React.js</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque tempore laboriosam vero repellendus velit expedita aspernatur recusandae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>TypeScript</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque tempore laboriosam vero repellendus velit expedita aspernatur recusandae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+<!------------Portfolio---------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Self-made Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="w1.jpg">
+                <div class="layer">
+                    <h3>Singh Marriot</h3>
+                    <p>This a clone website which is designed and developed using HTML, CSS and JavaScript.</p>
+                    <a href="https://github.com/spriya0711/singh-marriot-hotel"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w2.jpg">
+                <div class="layer">
+                    <h3>Snake, Water, Gun</h3>
+                    <p>This is a fully functional game which involves two players - a Human, and the computer itself.</p>
+                    <a href="https://github.com/spriya0711/snake-water-gun"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w3.jpg">
+                <div class="layer">
+                    <h3>Text Editor</h3>
+                    <p>This website is completely made on React using all the props and states of React.js.</p>
+                    <a href="https://github.com/spriya0711/TextUtils-First_React_App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/spriya0711" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------Contact------------>
+    
+<div id="contact">
+    <div class="container">
+<div class="row">
+    <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p><i class="fa-solid fa-envelope"></i>ps.priyasingh0711@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>+91-8600308274</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/priya-singh1997/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/8600308274"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="https://twitter.com/wandrlustPriya"><i class="fa-brands fa-square-twitter"></i></a> 
+            <a href="https://github.com/spriya0711"><i class="fa-brands fa-github"></i></a>
+        </div>
+            <a href="CV - Priya Singh (1).pdf" download class="btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="Email" placeholder="Your E-mail" required>
+            <input type="text" name="Company Name" placeholder="Company Name">
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button> 
+        </form>
+        <span id="submission"></span>
+    </div>
+</div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy Priya. All rights reserved.</p>
+    </div>
+</div>
+
+
+<script>
+var tablinks= document.getElementsByClassName("tab-links")
+var tabcontents= document.getElementsByClassName("tab-contents")
+
+function opentab (tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<!--------SideMenu Scripting---------->
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<!--------Contact Form Google Sheet--------->
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxj0BGWyipvx-FbZjAWcFMRJaGWS5ftMqdHwgqm8qKdyO3DxcURA3jaHLwCBpymndsv/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("submission")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            submission.innerHTML="Submitted Succesfully!"
+            setTimeout(function(){
+            submission.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <!--------For Typed Animation--------->
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed= new Typed(".auto-type",{strings:["development?", "so late?", "front end?"],
+typeSpeed:50,
+backSpeed:30,
+loop:true
+})
+  </script>
+</body>
+</html>
